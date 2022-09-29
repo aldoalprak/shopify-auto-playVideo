@@ -1,0 +1,28 @@
+
+#container-custom-vid {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 66.66%; /* 3:2 Aspect Ratio */
+}
+
+#custom-vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+
+#custom-vid::-webkit-media-controls {
+    display: none !important;
+}
